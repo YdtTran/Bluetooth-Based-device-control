@@ -1,3 +1,15 @@
+---
+title: "05 — Kiến trúc phần mềm"
+tags:
+  - firmware
+  - architecture
+  - superloop
+category: Firmware
+aliases:
+  - Kiến trúc phần mềm
+  - Software Architecture
+---
+
 # 05 — Kiến trúc phần mềm
 
 ## 5.1 Nguyên tắc thiết kế

@@ -1,3 +1,15 @@
+---
+title: "07 — Đặc tả giao diện OLED"
+tags:
+  - display
+  - ui
+  - oled
+category: UI
+aliases:
+  - Giao diện OLED
+  - OLED UI Spec
+---
+
 # 07 — Đặc tả giao diện OLED
 
 ## 7.1 Khung màn hình chung

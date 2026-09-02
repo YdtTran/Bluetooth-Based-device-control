@@ -1,4 +1,17 @@
-# Tài liệu dự án — Bluetooth-Based Device Control
+---
+title: "Tài liệu dự án — Bluetooth-Based Device Control"
+tags:
+  - index
+  - docs
+category: System
+aliases:
+  - Documentation Index
+---
+
+# 📚 Tài liệu dự án — Bluetooth-Based Device Control
+
+> [!tip] **Obsidian Users**
+> Open this `docs/` folder directly in Obsidian to use the **[[Dashboard|Interactive Dashboard (MOC)]]**, visual **`Architecture.canvas`**, and dynamic Graph View!
 
 Trung tâm điều khiển thiết bị công suất qua Bluetooth, dùng STM32F103C8T6 và module
 MKE-M15. Đồ án cuối khoá Embedded C.

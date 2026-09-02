@@ -1,3 +1,15 @@
+---
+title: "04 — Sơ đồ chân & Ngoại vi"
+tags:
+  - hardware
+  - pinout
+  - interrupts
+category: Hardware
+aliases:
+  - Sơ đồ chân
+  - Pin Mapping
+---
+
 # 04 — Sơ đồ chân và ngoại vi
 
 Nguồn sự thật của bảng này là [`stm-firmware/lib/Inc/pin_config.h`](../stm-firmware/lib/Inc/pin_config.h).

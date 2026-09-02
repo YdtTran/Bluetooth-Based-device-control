@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"node-mcu","type":"text","text":"### 🧠 STM32F103C8T6 (Blue Pill)\n- **Core:** ARM Cortex-M3 @ 72 MHz\n- **Memory:** 64 KB Flash / 20 KB SRAM\n- **Buses:** AHB 72 MHz, APB1 36 MHz, APB2 72 MHz\n- [[04-so-do-chan|📄 Pinout & NVIC Spec]]","x":0,"y":0,"width":340,"height":180,"color":"1"},
+		{"id":"node-testing","type":"file","file":"11-ke-hoach-kiem-thu.md","x":40,"y":580,"width":400,"height":260,"color":"4"},
+		{"id":"node-outputs","type":"text","text":"### ⚡ 5 Channel Power Outputs\n- **PA8:** OUT-1\n- **PB15:** OUT-2\n- **PB14:** OUT-3\n- **PB13:** OUT-4\n- **PB12:** OUT-5\n- **PC13:** Heartbeat LED\n- [[03-thiet-ke-phan-cung|📄 Hardware Schematic]]","x":650,"y":320,"width":380,"height":220,"color":"2"},
+		{"id":"node-oled","type":"file","file":"07-dac-ta-giao-dien-oled.md","x":740,"y":-100,"width":380,"height":280,"color":"5"},
+		{"id":"node-timing","type":"file","file":"09-timing-va-ngat.md","x":460,"y":-480,"width":380,"height":280,"color":"1"},
+		{"id":"node-buttons","type":"text","text":"### 🕹️ 5 Push Buttons\n- **PA5:** UP (EXTI9_5)\n- **PA6:** PREV (EXTI9_5)\n- **PA7:** OK (EXTI9_5)\n- **PB0:** DOWN (EXTI0)\n- **PB1:** NEXT (EXTI1)\n- [[04-so-do-chan|📄 Button Pinout]]","x":-620,"y":710,"width":360,"height":200,"color":"2"},
+		{"id":"node-dht11","type":"file","file":"08-dac-ta-cam-bien-dht11.md","x":-880,"y":190,"width":360,"height":260,"color":"3"},
+		{"id":"node-firmware","type":"file","file":"05-kien-truc-phan-mem.md","x":-120,"y":-620,"width":380,"height":280,"color":"6"},
+		{"id":"node-bt","type":"file","file":"06-giao-thuc-bluetooth.md","x":-700,"y":-400,"width":360,"height":260,"color":"4"}
+	],
+	"edges":[
+		{"id":"edge-bt-mcu","fromNode":"node-bt","fromSide":"right","toNode":"node-mcu","toSide":"left","label":"USART2 (PA2/PA3) @ 9600"},
+		{"id":"edge-dht-mcu","fromNode":"node-dht11","fromSide":"right","toNode":"node-mcu","toSide":"left","label":"1-Wire EXTI4 (PA4) + TIM2"},
+		{"id":"edge-btn-mcu","fromNode":"node-buttons","fromSide":"top","toNode":"node-mcu","toSide":"bottom","label":"EXTI0, EXTI1, EXTI9_5"},
+		{"id":"edge-mcu-oled","fromNode":"node-mcu","fromSide":"right","toNode":"node-oled","toSide":"left","label":"I2C2 (PB10/PB11) 400 kHz"},
+		{"id":"edge-mcu-out","fromNode":"node-mcu","fromSide":"right","toNode":"node-outputs","toSide":"left","label":"GPIO Push-Pull 3.3V"},
+		{"id":"edge-fw-mcu","fromNode":"node-firmware","fromSide":"bottom","toNode":"node-mcu","toSide":"top","label":"Superloop & Drivers"},
+		{"id":"edge-timing-mcu","fromNode":"node-timing","fromSide":"bottom","toNode":"node-mcu","toSide":"top","label":"NVIC Interrupt Map"},
+		{"id":"edge-mcu-test","fromNode":"node-mcu","fromSide":"bottom","toNode":"node-testing","toSide":"top","label":"79 Test Verification Cases"}
+	]
+}

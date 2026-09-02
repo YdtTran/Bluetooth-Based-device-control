@@ -1,3 +1,15 @@
+---
+title: "09 — Timing và Ngắt"
+tags:
+  - timing
+  - interrupts
+  - nvic
+category: Firmware
+aliases:
+  - Timing và Ngắt
+  - Interrupt Timing
+---
+
 # 09 — Timing và thiết kế ngắt
 
 Tài liệu này giải thích **vì sao** các con số timing trong firmware được chọn như vậy —

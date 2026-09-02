@@ -1,3 +1,15 @@
+---
+title: "03 — Thiết kế phần cứng"
+tags:
+  - hardware
+  - schematic
+  - bom
+category: Hardware
+aliases:
+  - Thiết kế phần cứng
+  - Hardware Design
+---
+
 # 03 — Thiết kế phần cứng
 
 Tài liệu này mô tả lại sơ đồ nguyên lý ở [`images/schematic.pdf`](images/schematic.pdf).
@@ -120,13 +132,13 @@ OUT-n ──[ 330Ω ]──► chân SIG của Jn (ra module công suất ngoài
       └──[ 330Ω ]──►|── LED Dn ──► GND     (đèn báo trạng thái kênh)
 ```
 
-| Kênh | Chân MCU | Điện trở | LED | Connector |
-|---|---|---|---|---|
-| OUT-1 | PA8 | R1, R2 (330 Ω) | D1 | J1 |
-| OUT-2 | PB15 | R3, R4 (330 Ω) | D2 | J2 |
-| OUT-3 | PB14 | R5, R6 (330 Ω) | D3 | J3 |
-| OUT-4 | PB13 | R7, R8 (330 Ω) | D4 | J4 |
-| OUT-5 | PB12 | R9, R10 (330 Ω) | D5 | J5 |
+| Kênh  | Chân MCU | Điện trở        | LED | Connector |
+| ----- | -------- | --------------- | --- | --------- |
+| OUT-1 | PA8      | R1, R2 (330 Ω)  | D1  | J1        |
+| OUT-2 | PB15     | R3, R4 (330 Ω)  | D2  | J2        |
+| OUT-3 | PB14     | R5, R6 (330 Ω)  | D3  | J3        |
+| OUT-4 | PB13     | R7, R8 (330 Ω)  | D4  | J4        |
+| OUT-5 | PB12     | R9, R10 (330 Ω) | D5  | J5        |
 
 Mỗi connector `Jn` có 3 chân: **VCC (+5V)** · **GND** · **SIG**. Nhờ vậy một module relay
 hoặc SSR rời cắm thẳng vào được, lấy luôn nguồn từ board.

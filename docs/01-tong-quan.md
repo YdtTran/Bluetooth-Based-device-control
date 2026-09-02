@@ -1,3 +1,15 @@
+---
+title: "01 — Tổng quan dự án"
+tags:
+  - overview
+  - system
+  - architecture
+category: System
+aliases:
+  - Tổng quan
+  - System Overview
+---
+
 # 01 — Tổng quan dự án
 
 ## 1.1 Bài toán

@@ -1,3 +1,15 @@
+---
+title: "11 — Kế hoạch kiểm thử"
+tags:
+  - testing
+  - qa
+  - verification
+category: Testing
+aliases:
+  - Kế hoạch kiểm thử
+  - Test Plan
+---
+
 # 11 — Kế hoạch kiểm thử
 
 Kiểm thử **thủ công trên board thật**. Project không có framework unit test tự động

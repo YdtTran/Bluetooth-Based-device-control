@@ -1,0 +1,74 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "localJumps": 1,
+  "localBacklinks": true,
+  "localForelinks": true,
+  "localInterlinks": false,
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#hardware",
+      "color": {
+        "a": 1,
+        "rgb": 15758117
+      }
+    },
+    {
+      "query": "tag:#firmware",
+      "color": {
+        "a": 1,
+        "rgb": 4976722
+      }
+    },
+    {
+      "query": "tag:#protocol",
+      "color": {
+        "a": 1,
+        "rgb": 3318259
+      }
+    },
+    {
+      "query": "tag:#timing",
+      "color": {
+        "a": 1,
+        "rgb": 14774044
+      }
+    },
+    {
+      "query": "tag:#display",
+      "color": {
+        "a": 1,
+        "rgb": 10444747
+      }
+    },
+    {
+      "query": "tag:#sensor",
+      "color": {
+        "a": 1,
+        "rgb": 16753920
+      }
+    },
+    {
+      "query": "tag:#testing",
+      "color": {
+        "a": 1,
+        "rgb": 13915121
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.15,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1
+}

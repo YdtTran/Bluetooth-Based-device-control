@@ -1,3 +1,15 @@
+---
+title: "06 — Giao thức Bluetooth"
+tags:
+  - protocol
+  - bluetooth
+  - uart
+category: Protocol
+aliases:
+  - Giao thức Bluetooth
+  - Bluetooth Protocol
+---
+
 # 06 — Giao thức Bluetooth
 
 Tài liệu này đủ để viết một app điều khiển mà không cần đọc firmware.

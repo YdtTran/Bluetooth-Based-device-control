@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "1ad55a96409140bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "137a451c6b0af784",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02cb4a677b3d577a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b0f689b806a57d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "846cd7dfc0ae95ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "072e4a3ac695f175",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4cd7d4bf6a348408",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3187a28a522328b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ffbdac2de7c38171",
+    "type": "split",
+    "children": [
+      {
+        "id": "73d1b5cd547d5ab0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9846405ef7c64489",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3d704d34baaf33a9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "6d3d56c92c338944",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "400eda3bc120b46c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "154ce51bf98fab0c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "02cb4a677b3d577a",
+  "lastOpenFiles": [
+    "README.md",
+    "Architecture.canvas",
+    "datasheet/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf",
+    "datasheet/SSD1306.pdf",
+    "drivers/SSD1306.md",
+    "images/schematic.pdf",
+    "images/SSD1306-GDDRAM.png",
+    "images/pcb.png",
+    "images/NVIC.png",
+    "images/DHT11_FSM.png",
+    "images/DHT11_Flowchart.png",
+    "superpowers/plans/2026-09-02-clean-hardware-scaffold.md",
+    "01-tong-quan.md",
+    "04-so-do-chan.md",
+    "10-build-va-nap.md",
+    "11-ke-hoach-kiem-thu.md",
+    "07-dac-ta-giao-dien-oled.md",
+    "03-thiet-ke-phan-cung.md"
+  ]
+}

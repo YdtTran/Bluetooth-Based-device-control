@@ -1,3 +1,16 @@
+---
+title: "08 — Đặc tả cảm biến DHT11"
+tags:
+  - sensor
+  - dht11
+  - 1wire
+  - timing
+category: Sensor
+aliases:
+  - Cảm biến DHT11
+  - DHT11 Sensor
+---
+
 # 08 — Đặc tả cảm biến DHT11
 
 ## 8.1 Giao thức 1-wire

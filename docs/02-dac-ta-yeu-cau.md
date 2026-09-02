@@ -1,3 +1,15 @@
+---
+title: "02 — Đặc tả yêu cầu"
+tags:
+  - requirements
+  - specs
+  - testing
+category: Requirements
+aliases:
+  - Đặc tả yêu cầu
+  - Requirements Spec
+---
+
 # 02 — Đặc tả yêu cầu (SRS)
 
 Mỗi yêu cầu có một mã để [Kế hoạch kiểm thử](11-ke-hoach-kiem-thu.md) tham chiếu ngược.

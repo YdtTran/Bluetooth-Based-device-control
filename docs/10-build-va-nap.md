@@ -1,3 +1,15 @@
+---
+title: "10 — Build và Nạp firmware"
+tags:
+  - build
+  - toolchain
+  - stlink
+category: Build
+aliases:
+  - Build và nạp
+  - Build and Flash
+---
+
 # 10 — Build và nạp firmware
 
 Toàn bộ project firmware nằm trong thư mục [`stm-firmware/`](../stm-firmware/). Mọi lệnh

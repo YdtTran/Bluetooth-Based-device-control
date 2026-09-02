@@ -1,3 +1,15 @@
+---
+title: "12 — Hạn chế và Hướng phát triển"
+tags:
+  - roadmap
+  - limitations
+  - improvements
+category: System
+aliases:
+  - Hạn chế và phát triển
+  - Future Roadmap
+---
+
 # 12 — Hạn chế và hướng phát triển
 
 ## 12.1 Hạn chế đã biết
